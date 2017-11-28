@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Calorie calculator</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="bs/css/bootstrap.css"> 
@@ -141,15 +141,15 @@ if ($_POST){
         if($_POST['spol'] == 'Z')
         {
             $kcal = (447.593 + (9.247 * $kg) + (3.098 * $cm) - (4.330 * $god));
-            $kcal2 = (447.593 + (9.247 * $kg) + (3.098 * $cm) - (4.330 * $god)*1.2);
+            $kcal2 = ((447.593 + (9.247 * $kg) + (3.098 * $cm) - (4.330 * $god))*1.2);
             $tez = ($cm - 100 - (( $cm - 150) /2.5));
             
         }
         else
         {
             
-            $kcal = (88.362 + (13.397 * $kg) + (4.799 * $cm) - (5.677 * $god));
-            $kcal2 = ((88.362 + (13.397 * $kg) + (4.799 * $cm) - (5.677 * $god))*1.2);
+            $kcal = ((88.362 + (13.397 * $kg) + (4.799 * $cm) - (5.677 * $god)));
+            $kcal2 = (((88.362 + (13.397 * $kg) + (4.799 * $cm) - (5.677 * $god)))*1.2);
             $tez = ($cm - 100 - (( $cm - 150) /4));
         }
 

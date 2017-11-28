@@ -7,7 +7,7 @@ $kcal2 = $_SESSION['kcal2'];
 
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Calorie calculator</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="bs/css/bootstrap.css"> 
@@ -16,7 +16,7 @@ $kcal2 = $_SESSION['kcal2'];
             font-family: "Lucinda Grande";
             font-size: 150%;
             background: linear-gradient(to right , grey , white);
-            /*background-image: url("slike/pozadina4.jpg");*/
+            
         }
         hr{
             color: black;
