@@ -2,10 +2,12 @@
 
 <html>
     <head>
+    
         <title>Calorie calculator</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="bs/css/bootstrap.css"> 
+        <link rel="icon" href="slike/icon.jpg">
         <style> 
         body{
             font-family: "Lucinda Grande";
@@ -48,7 +50,7 @@
         </style>
 
 
-        <h1><img src="slike/naslov.jpg" height="130" width="600" style="border-radius: 8px;"></h1>
+    <h1><img src="slike/naslov.jpg" height="130" width="600" style="border-radius: 8px;"></h1>
     <br>
     </head>
     <body>
@@ -64,6 +66,7 @@ function googleTranslateElementInit() {
 </div>
 
 <?php
+
     
 
 
@@ -102,15 +105,15 @@ function googleTranslateElementInit() {
            <!--<label for="usr"></label>-->
          
           
-           </div>
+          </div>
 
         
            
-              <br> 
-            <input type="submit" class="btn btn-success btn-lg" name="submit" value="Calculate"> 
+         <br> 
+        <input type="submit" class="btn btn-success btn-lg" name="submit" value="Calculate"> 
 
            
-         </form>
+        </form>
         </div>';
 
 if ($_POST){
@@ -163,9 +166,9 @@ if ($_POST){
         echo '<div class="table-responsive">';
         echo ' <div class="container">';
 
-       echo '<form method="post" action="recipes.php">
+        echo '<form method="post" action="recipes.php">
         <p>Click for more: <input type="submit" class="btn btn-success btn-lg" name="submit" value="Recipes"> <p/>
-         </form>';
+        </form>';
         echo '<table class="table" border="1" cellspasing="0" cellpadding="5">';
         echo '<tr class="success" background-color: powderblue>';
     

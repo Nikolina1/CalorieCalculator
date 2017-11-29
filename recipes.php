@@ -11,6 +11,7 @@ $kcal2 = $_SESSION['kcal2'];
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="bs/css/bootstrap.css"> 
+        <link rel="icon" href="slike/icon.jpg">
         <style> 
         body{
             font-family: "Lucinda Grande";
@@ -52,17 +53,18 @@ $kcal2 = $_SESSION['kcal2'];
         
 
         </style>
-        <h1><img src="slike/recipes.jpg" height="120" width="360" style="border-radius: 8px;"></h1>
+       
+    <h1><img src="slike/recipes.jpg" height="120" width="360" style="border-radius: 8px;"></h1>
     <br>
     </head>
     <body>
     
     <div id="google_translate_element">
 
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
 </script>
 <script>
     function goBack() {
@@ -72,6 +74,7 @@ function googleTranslateElementInit() {
 <script type="text/javascript"  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </div>
 <?php
+  
     
 
     echo '<div class="container">';
@@ -161,6 +164,7 @@ if ($_POST){
         <p> Sea salt edamame - 1 serving </p>
         </div>';
             break;
+            
         case '4':
         echo '   
         <h1><b> 3 MEALS 1700 - 1900 kcal </b></h1> 
@@ -177,8 +181,8 @@ if ($_POST){
         <p> Chicken and cabbage stir fry - 1 serving </p>
         <p> Chocolate mousse - 1 serving </p>
         </div>';
-            
             break;
+
         case '5':
         echo '   
         <h1><b> 3 MEALS 1900 - 2100 kcal </b></h1> 

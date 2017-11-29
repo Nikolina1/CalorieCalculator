@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="bs/css/bootstrap.css"> 
+        <link rel="icon" href="slike/icon.jpg">
         <style> 
         body{
             font-family: "Lucinda Grande";
@@ -42,12 +43,15 @@
             border-color: #404040;
             cursor:pointer;
         }
+        p{
+            font-size: 90%;
+        }
         
 
         </style>
 
 
-        <h1><img src="slike/about.png" height="110" width="400" style="border-radius: 8px;"></h1>
+    <h1><img src="slike/about.png" height="110" width="400" style="border-radius: 8px;"></h1>
     <br>
     </head>
     <body>
